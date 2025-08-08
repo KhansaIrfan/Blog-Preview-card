@@ -1,0 +1,60 @@
+body{
+  font-family: "Figtree", sans-serif;
+}
+
+.body-background{
+  background-color: #F6D050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 100;
+  width: 500px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 20px 20px;
+  box-shadow:12px 13px #000;;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 66px;
+
+}
+
+.box img{
+  width: auto;
+  border-radius: 8px;
+}
+
+.mb{
+  margin-bottom: 10px;
+}
+
+.title{
+  color: #000;
+  background-color: #F6D050;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img{
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width:576px){
+  .box{
+    width: 300px;
+    margin-top: 117px;
+  }
+}
